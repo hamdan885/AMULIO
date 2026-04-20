@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMULIO - AI Chatbot Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Dark Mode Toggle -->
+        <div class="toggle-container">
+            <button id="darkModeToggle" class="toggle-btn">🌙 Dark Mode</button>
+        </div>
+
+        <!-- Header -->
+        <div class="header">
+            <h1>🤖 AMULIO AI Chatbot</h1>
+            <p>Your AI Assistant for Accurate Answers</p>
+        </div>
+
+        <!-- Chat Box -->
+        <div class="chatbox" id="chatbox"></div>
+
+        <!-- Input Section -->
+        <div class="input-section">
+            <input 
+                type="text" 
+                id="userInput" 
+                placeholder="Ask any question..." 
+                onkeypress="handleKeyPress(event)"
+            >
+            <button onclick="sendMessage()" class="send-btn">Send</button>
+        </div>
+
+        <!-- Creator Info -->
+        <div class="creator-info">
+            <h3>Created By:</h3>
+            <p><strong>Name:</strong> MOHAMMAD HARIS</p>
+            <p><strong>Class:</strong> 12th</p>
+            <p><strong>School:</strong> SAIYYED HAMID SENIOR SECONDARY SCHOOL (SHSSS), ALIGARH</p>
+            <p><strong>University:</strong> Aligarh Muslim University (AMU)</p>
+            <p><strong>Location:</strong> AMILO MUBARAK PUR AZAMGARH</p>
+            <p><strong>Phone:</strong> <a href="tel:8077097290">8077097290</a></p>
+            <p><strong>Email:</strong> <a href="mailto:Mohammadhaaris991@gmail.com">Mohammadhaaris991@gmail.com</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
